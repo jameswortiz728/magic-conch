@@ -3,6 +3,7 @@ import AddOption from './AddOption';
 import Header from './Header';
 import Action from './Action';
 import Options from './Options';
+import Footer from './Footer';
 import OptionModal from './OptionModal'
 
 export default class MagicConchApp extends React.Component {
@@ -85,6 +86,7 @@ export default class MagicConchApp extends React.Component {
                     selectedOption={this.state.selectedOption}
                     handleClearSelectedOption={this.handleClearSelectedOption}
                 />
+                <Footer/>
             </div>
         );
     }
