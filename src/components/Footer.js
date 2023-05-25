@@ -4,7 +4,7 @@ const Footer = () => {
     return (
          <footer className="footer">
             <div className="container">
-                <h1><a href="https://www.jwortiz.dev/">Return to JWOrtiz.dev</a></h1>
+                <a className="footer__title" href="https://www.jwortiz.dev/"><h1>Return to JWOrtiz.dev</h1></a>
             </div>
         </footer>
     )

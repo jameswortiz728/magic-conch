@@ -27,6 +27,9 @@
     color: white;
     font-weight: 500;
     padding: $s-size;
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 .button--link {
@@ -34,5 +37,8 @@
     border: none;
     color: $off-white;
     padding: 0;
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
