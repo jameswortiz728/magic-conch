@@ -61,7 +61,7 @@ export default class MagicConchApp extends React.Component {
         console.log('componentWillUnmount');
     }
     render() {
-        const subtitle = 'Paralysis by analysis? Let the Magic Conch decide for you';
+        const subtitle = 'Too many choices? Let the Magic Conch decide for you!';
 
         return (
             <div>
